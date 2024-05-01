@@ -2,7 +2,11 @@
 
 define('HOST', 'localhost');
 define('USER', 'root');
-define('PASS', 'Jonasmen@5533');
+define('PASS', '');
 define('BASE', 'ERP');
 
-$conn = new MySQLi(HOST, USER, PASS, BASE);
+try {
+    $conn = new MySQLi(HOST, USER, PASS, BASE);
+} catch (Exception $e) {
+   echo "Erro ao conectar com banco de dados", $e->getMessage();
+}
