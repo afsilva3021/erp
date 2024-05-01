@@ -156,7 +156,7 @@
          <li class="nav-item dropdown no-arrow">
              <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                  <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?php echo $_SESSION['USR_NOME']; ?></span>
-                 <img class="img-profile rounded-circle" src="img/undraw_profile.svg">
+                 <img class="img-profile rounded-circle" src="img/undraw_profile.svg" width="50" height="50">
              </a>
              <!-- Dropdown - User Information -->
              <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
@@ -192,10 +192,17 @@
              </div>
              <div class="modal-body">
                  <div class="content-sm">
-                     <div class="row">
-                         <!-- <img src="../Views/img/users.png" class="rounded-circle" alt="user" width="5" height="35"> -->
+                     <div class="col d-flex justify-content-center">
+                         <img class="justify-content-center" src="../Views/img/users.png" class="rounded-circle" alt="user" width="75" height="75">
                      </div>
-                     <div class="col-12">
+                     <div class="col">
+                         <div class="mb-3">
+                             <label for="formFile" class="form-label">Selecione uma imagen</label>
+                             <input class="form-control" type="file" name="file" id="formFile">
+                         </div>
+
+                     </div>
+                         <div class="col-12">
                          <form class="row g-3">
                              <div class="col-md-6">
                                  <label for="inputEmail4" class="form-label">Nome</label>

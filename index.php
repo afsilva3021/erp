@@ -68,7 +68,7 @@
                                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                                     </div>
                                                     <div class="modal-body">
-                                                        <form class="form-floating">
+                                                        <form class="form-floating" action="./Models/perfil.php" method="POST" enctype="multipart/form-data">
                                                         <p>Digite seu email cadastrado</p>
                                                             <input type="email" class="form-control is-invalid" id="floatingInputInvalid" placeholder="name@example.com" value="test@example.com">
                                                             <label for="floatingInputInvalid"></label>
