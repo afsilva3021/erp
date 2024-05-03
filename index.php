@@ -4,13 +4,10 @@
 <head>
 
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./Views/img/logo.ico"
     <title>SB Admin 2 - Login</title>
-
+ 
     <!-- Custom fonts for this template-->
     <link rel="stylesheet" href="./Views/vendor/fontawesome-free/css/all.min.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
@@ -42,8 +39,9 @@
                                         <h1 class="h4 text-gray-900 mb-4">Seja bem vindo!</h1>
                                     </div>
                                     <form method="POST" action="./Models/logar.php" class="user">
+                                        <div id="liveAlertPlaceholder"></div>
                                         <div class="form-group">
-                                            <input type="email" name="email" class="form-control form-control-user" id="InputEmail" aria-describedby="emailHelp" placeholder="Entre de acesso...">
+                                            <input type="email" name="email" class="form-control form-control-user" id="InputEmail" aria-describedby="emailHelp" placeholder="Entre de acesso..." required >
                                         </div>
                                         <div class="form-group">
                                             <input type="password" name="senha" class="form-control form-control-user" id="InputPassword" placeholder="Senha...">
@@ -105,7 +103,6 @@
     <!-- Custom scripts for all pages-->
     <script src="./Views/js/sb-admin-2.min.js"></script>
     
-    <script src=""></script>
 </body>
 
 </html>
