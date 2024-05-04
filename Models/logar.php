@@ -6,14 +6,13 @@
         header("Location: ../index.php");
     }
 
-
     include("../Controllers/config.php");
     
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $email = $_POST["email"];
-     $senha = $_POST["senha"];
+      $senha = $_POST["senha"];
 
-    // Verifica as credenciais no banco de dados
+   
     $query = "SELECT * FROM USR WHERE USR_EMAIL = :email AND USR_PWD = :senha";
     $stmt = $pdo->prepare($query);
     $stmt->bindParam(':email', $email);
@@ -37,4 +36,7 @@
         echo "<script>location.href='../index.php';</script>";
     }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0495730c89365309fcb9f6ee59504c5deedb5f85
