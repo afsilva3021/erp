@@ -30,13 +30,13 @@
     <!-- Nav Item - Pages Collapse Menu -->
     <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-            <i class="fas fa-fw fa-cog"></i>
-            <span>Produtos</span>
+            <i class="fa-solid fa-boxes-packing"></i>
+            <span>Cadastro Client</span>
         </a>
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
-                <a class="collapse-item" href="buttons.php">Cadastro de Produtos</a>
-                <a class="collapse-item" href="cards.php">Consulta Estoque</a>
+                <a class="collapse-item" href="cadastro.php">Clientes</a>
+                <a class="collapse-item" href="cards.php">Fornecedores</a>
             </div>
         </div>
     </li>
@@ -44,8 +44,8 @@
     <!-- Nav Item - Utilities Collapse Menu -->
     <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
-            <i class="fas fa-fw fa-wrench"></i>
-            <span>Utilities</span>
+            <i class="fa-solid fa-money-check-dollar"></i>
+            <span>Vendas</span>
         </a>
         <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
